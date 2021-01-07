@@ -34,3 +34,25 @@ I'll fetch a song's genre using the [Last.fm API](www.last.fm/api/)
 
 ## Class count for Pop and Electronic
 ![](images/tags2.png)
+
+<hr>
+
+# Training Magenta's Melody RNN models
+
+* Melody RNN (basic configuration)
+    - This configuration acts as a baseline for melody generation with an LSTM model. It uses basic one-hot encoding to represent extracted melodies as input to the LSTM. For training, all sequence examples are transposed to the MIDI pitch range [48,84] and outputs will also be in this range.
+
+* Melody RNN (attention configuration)
+    - Attention allows the model to more easily access past information without having to store that information in the RNN cell's state. This allows the model to more easily learn longer term dependencies, and results in melodies that have longer arching themes. 
+
+<hr>
+
+## Training and evaluation data
+
+* Baseline RNN (Loss)
+![](images/baseline_rnn_loss.png)
+
+<hr>
+
+
+

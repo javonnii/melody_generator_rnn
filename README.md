@@ -8,7 +8,9 @@ The goal of this project is to learn how to apply machine learning techniques to
 # About the Data
 <hr>
 
-In this project I'll use the ["The Lakh MIDI Dataset v0.1."](https://colinraffel.com/projects/lmd/) I'll filter the dataset leaving only songs that are tagged "Pop" or "Electronic."
+In this project I'll use the ["The Lakh MIDI Dataset v0.1"](https://colinraffel.com/projects/lmd/) and matched content from ["The Million Song Dataset."](millionsongdataset.com)
+
+I'll filter the dataset leaving only songs that are tagged "Pop" or "Electronic."
 
 * LMD-matched - A subset of 45,129 files from LMD-full which have been matched to entries in the Million Song Dataset.
 

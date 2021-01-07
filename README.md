@@ -62,3 +62,26 @@ I'll fetch a song's genre using the [Last.fm API](www.last.fm/api/)
 * Melody RNN w/ Attention config (Accuracy)
 ![](images/attention_rnn_acc.png)
 
+<hr>
+
+# Generate melodies by priming the trained models
+
+## Primer Midi "Uptown Funk"
+ - I'll generate melodies by priming the baseline and Attention models with 2.5 seconds of main melody of Uptown Funk.
+
+![](images/uptown_primer.png)
+
+<hr>
+
+## Base model generated melody
+![](images/base_model_melody.png)
+
+<hr>
+
+## Melody RNN w/ Attention config
+![](images/atten_model_melody.png)
+
+
+<hr>
+
+![](images/magenta_logo.png)

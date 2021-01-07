@@ -49,10 +49,16 @@ I'll fetch a song's genre using the [Last.fm API](www.last.fm/api/)
 
 ## Training and evaluation data
 
-* Baseline RNN (Loss)
+* Melody RNN Baseline (Loss)
 ![](images/baseline_rnn_loss.png)
 
+* Baseline RNN (Accuracy)
+![](images/baseline_rnn_acc.png)
 <hr>
 
+* Melody RNN w/ Attention config (Loss)
+![](images/attention_rnn_loss.png)
 
+* Melody RNN w/ Attention config (Accuracy)
+![](images/attention_rnn_acc.png)
 

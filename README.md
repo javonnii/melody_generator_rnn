@@ -10,7 +10,7 @@ The goal of this project is to learn how to apply machine learning techniques to
 
 In this project I'll use the ["The Lakh MIDI Dataset v0.1"](https://colinraffel.com/projects/lmd/) and matched content from ["The Million Song Dataset."](millionsongdataset.com)
 
-I'll filter the dataset leaving only songs that are tagged "Pop" or "Electronic."
+I'll fetch a song's genre using the [Last.fm API](www.last.fm/api/)
 
 * LMD-matched - A subset of 45,129 files from LMD-full which have been matched to entries in the Million Song Dataset.
 
@@ -19,6 +19,12 @@ I'll filter the dataset leaving only songs that are tagged "Pop" or "Electronic.
 * Dataset not provided in this repo
 
 ## Data Visualization
+
+* Instrument Class of the entire dataset
+
+![](images/instrument_class.png)
+
+<hr>
 
 * Distribution of Piano lengths of Pop and Electronic Songs
 

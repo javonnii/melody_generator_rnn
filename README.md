@@ -14,7 +14,7 @@ In this project I'll use the ["The Lakh MIDI Dataset v0.1."](https://colinraffel
 
 * Match scores - A json file which lists the match confidence score for every match in LMD-matched and LMD-aligned.
 
-#### Dataset will not be provided in this repo
+* Dataset not provided in this repo
 
 ## Data Visualization
 

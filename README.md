@@ -52,7 +52,7 @@ I'll fetch a song's genre using the [Last.fm API](www.last.fm/api/)
 * Melody RNN Baseline (Loss)
 ![](images/baseline_rnn_loss.png)
 
-* Baseline RNN (Accuracy)
+* Melody RNN Baseline (Accuracy)
 ![](images/baseline_rnn_acc.png)
 <hr>
 

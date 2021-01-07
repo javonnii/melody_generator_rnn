@@ -28,9 +28,9 @@ I'll fetch a song's genre using the [Last.fm API](www.last.fm/api/)
 
 * Distribution of Piano lengths of Pop and Electronic Songs
 
-![](images/piano_length.png)
+![](images/piano_length2.png)
 
 <hr>
 
 ## Class count for Pop and Electronic
-![](images/tags.png)
+![](images/tags2.png)

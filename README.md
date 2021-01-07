@@ -22,3 +22,7 @@ In this project I'll use the ["The Lakh MIDI Dataset v0.1."](https://colinraffel
 
 ![](images/piano_length.png)
 
+<hr>
+
+## Class count for Pop and Electronic
+![](images/tags.png)

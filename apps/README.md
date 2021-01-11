@@ -45,3 +45,9 @@ magenta_midi \
 * The primer channel "Orange" can either be MIDI file that you play or MIDI controller where I can play a melody myself. Once the MIDI file is done playing Magenta will take a bar of silence and return a response "generated MIDI" that I can then record. "setup in channel 1"
 
 ![](images/ableton_io.png)
+
+## Generated Melody from primer "MIDI track" on channel 2
+
+* audio engineer rule of thumb "record everything!"
+
+![](images/ableton_generated.png)

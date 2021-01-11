@@ -15,3 +15,33 @@ open index.html
 <hr>
 
 ![](images/web_application.png)
+<hr>
+
+# How to send MIDI from Magenta to DAW "Ableton Live"
+
+* Below shows the signal flow of MIDI from the instrument thur the interface where the MIDI is converted to NoteSequence proto. The model used must have a Sequence Generator attribute to interact with the MIDI Interface. Here I used the trained Melody RNN w/ attention config. The prediction is made and the response of routed back and out "magenta_out" of Magneta MIDI Interface.
+
+![](images/midi_interface.png)
+
+## Start generating 
+
+* make sure the the attention_rnn.mag file is in the current directory to be called upon.
+
+```bash
+conda activate magenta
+
+magenta_midi \
+--input_port="IAC Driver Bus 1" \ # out of Ableton and input Magenta MIDI
+--output_port="magenta_out" \ # out Magenta MIDI and input into Ableton
+--bundle_files=attention_rnn.mag \ # bundle of my trained model
+--enable_metronome=false \ # metronome on or off
+--qpm=128  # control the bpm
+```
+
+## Ableton IO configuration
+
+* In the image below pay close attention to the in and outs on both the preferences page and on the actual MIDI channels in session view. 
+
+* The primer channel "Orange" can either be MIDI file that you play or MIDI controller where I can play a melody myself. Once the MIDI file is done playing Magenta will take a bar of silence and return a response "generated MIDI" that I can then record. "setup in channel 1"
+
+![](images/ableton_io.png)

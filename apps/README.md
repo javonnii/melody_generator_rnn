@@ -19,7 +19,7 @@ open index.html
 
 # How to send MIDI from Magenta to DAW "Ableton Live"
 
-* Below shows the signal flow of MIDI from the instrument thur the interface where the MIDI is converted to NoteSequence proto. The model used must have a Sequence Generator attribute to interact with the MIDI Interface. Here I used the trained Melody RNN w/ attention config. The prediction is made and the response of routed back and out "magenta_out" of Magneta MIDI Interface.
+* Below shows the signal flow of MIDI from the instrument thur the interface where the MIDI is converted to NoteSequence proto. The model used must have a Sequence Generator attribute to interact with the MIDI Interface. Here I used the trained Melody RNN w/ attention config. The prediction is made and the response is routed back thorugh "magenta_out" of Magneta MIDI Interface.
 
 ![](images/midi_interface.png)
 
@@ -51,6 +51,6 @@ magenta_midi \
 * audio engineer rule of thumb "record everything!"
 
 * Here you can see in the first six bars is the primer melody from the MIDI file and then about a bar of silence Magenta returns a AI generated melody. Have fun!
- 
+
 
 ![](images/ableton_generated.png)

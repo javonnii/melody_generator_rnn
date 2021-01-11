@@ -9,6 +9,7 @@ Here I'll use the checkpoint converter to convert the trained "baseline RNN mode
 ``` bash 
 python -m http.server
 
+# this command below should be in a seperate terminal window
 open index.html
 ```
 

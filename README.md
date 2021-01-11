@@ -95,5 +95,3 @@ I'll fetch a song's genre using the [Last.fm API](www.last.fm/api/)
 
 
 <hr>
-
-![](images/magenta_logo.png)

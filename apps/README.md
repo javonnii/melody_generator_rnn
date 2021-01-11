@@ -1,4 +1,4 @@
-# Overview of Magenta.js web application and Making Magenta interact with Music application
+# Overview of Magenta.js web application and Making Magenta interact with Ableton Live
 
 <hr>
 

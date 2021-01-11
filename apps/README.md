@@ -50,4 +50,7 @@ magenta_midi \
 
 * audio engineer rule of thumb "record everything!"
 
+* Here you can see in the first six bars is the primer melody from the MIDI file and then about a bar of silence Magenta returns a AI generated melody. Have fun!
+ 
+
 ![](images/ableton_generated.png)

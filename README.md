@@ -3,6 +3,18 @@
 
 The goal of this project is to learn how to apply machine learning techniques to produce music. In this project I'll being training Google Magenta's Melody RNN model from scratch using songs in symbolic representation "midi" of Pop and Electronic songs. Midi describes the music using a notation containing the musical notes and timing, but not the sound or timbre of the actual sound. 
 
+##### conda environment:
+```bash
+# Create a new environment for Magenta with Python 3.6.x as interpreter
+conda create --name magenta python=3.6
+
+# Then activate it
+conda activate magenta
+
+# Then you can install Magenta 2.1.2 and the dependecies
+pip install magenta=2.1.2 visual_midi tables
+```
+
 <hr>
 
 # About the Data

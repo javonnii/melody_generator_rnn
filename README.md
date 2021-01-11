@@ -38,6 +38,8 @@ I'll fetch a song's genre using the [Last.fm API](www.last.fm/api/)
 
 <hr>
 
+* Extract only Piano tracks of Pop and Electronic
+
 * Distribution of Piano lengths of Pop and Electronic Songs
 
 ![](images/piano_length2.png)

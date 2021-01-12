@@ -96,6 +96,7 @@ I'll fetch a song's genre using the [Last.fm API](www.last.fm/api/)
 ## Melody RNN w/ Attention config
 
 * As you can see here, the primer MIDI and how the attention was able to generate a longer arching theme from the primer. 
+
 ![](images/atten_model_melody.png)
 <hr>
 

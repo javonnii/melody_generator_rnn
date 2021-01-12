@@ -97,3 +97,4 @@ I'll fetch a song's genre using the [Last.fm API](www.last.fm/api/)
 
 
 <hr>
+[<img src="https://img.youtube.com/vi/<VIDEO ID>/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=9zFecOaD4CU)

@@ -12,7 +12,7 @@ python -m http.server
 # this command below should be in a seperate terminal window
 open index.html
 ```
-
+### Should see this in your browser
 <hr>
 
 ![](images/web_application.png)

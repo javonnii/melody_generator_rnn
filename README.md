@@ -100,4 +100,4 @@ I'll fetch a song's genre using the [Last.fm API](www.last.fm/api/)
 ![](images/atten_model_melody.png)
 <hr>
 
-### Checkout the apps directory to see how I applied these models.
+### Checkout the apps directory to see how I applied the two models.

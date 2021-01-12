@@ -6,7 +6,7 @@
 conda activate magenta
 ```
 
-First, change the directory to the folder you've created and call the convet_dir_note_sequences command using the following command line
+First, change the directory to the project folder you've created and call the convet_dir_note_sequences command using the following command line
 
 ```bash
 convert_dir_to_note_sequences \

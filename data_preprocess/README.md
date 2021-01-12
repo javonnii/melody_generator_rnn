@@ -2,14 +2,14 @@
 
 * MIDI directory is not provided because of size
 
-First, change the directory to the folder you've created and call the convet_dir_note_sequences command using the following commandline
+First, change the directory to the folder you've created and call the convet_dir_note_sequences command using the following command line
 
 ```bash
 convert_dir_to_note_sequences \
 --input_dir="PATH_MIDI_DIR" \
 --output_file="notesequences.tfrecord"
 ```
-This will output a bunch of "Converted MIDI" files and produce a notesequences.tfrecord
+This will output a bunch of "Converted MIDI" files and produce a notesequences.tfrecord as seen in the directory above.
 
 Now, lauch the pipe on the data using the following code:
 ```bash

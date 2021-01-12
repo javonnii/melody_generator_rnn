@@ -88,12 +88,15 @@ I'll fetch a song's genre using the [Last.fm API](www.last.fm/api/)
 <hr>
 
 ## Base model generated melody
+* Here you can see the primer MIDI and the continued sequence.
 ![](images/base_model_melody.png)
 
 <hr>
 
 ## Melody RNN w/ Attention config
+
+* As you can see here, the primer MIDI and how the attention was able to generate a longer arching theme from the primer. 
 ![](images/atten_model_melody.png)
-
-
 <hr>
+
+# Checkout the apps directory for in-depth application of these models.

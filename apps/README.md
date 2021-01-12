@@ -2,7 +2,7 @@
 
 <hr>
 
-Here I'll used the checkpoint converter to convert the trained "baseline RNN model" for magenta.js. I've used a simple template that has a fixed "original melody" button and a generated button to continue the sequence given to the trained baseline model.
+Here I used the checkpoint converter to convert the trained "baseline RNN model" for magenta.js. I've used a simple template that has a fixed "original melody" button and a generated button to continue the sequence given to the trained baseline model.
 
 * In the converted base directory you'll find the files generated from the converter. The config file will be called upon when I open the index.html.
 

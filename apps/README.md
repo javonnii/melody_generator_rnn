@@ -28,7 +28,7 @@ open index.html
 
 ## Start generating 
 
-* make sure the the attention_rnn.mag file is in the current directory to be called upon.
+* make sure the the attention_rnn.mag file is in the current directory to be called upon. These files are in the saved_model_bundles dir.
 
 ```bash
 conda activate magenta

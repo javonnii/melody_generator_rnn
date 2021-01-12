@@ -22,7 +22,7 @@ open index.html
 * I find generating melodies more useful in a DAW "digital audio workstation" Ableton where you can audition and record everything a lot easier.
 
 
-* Below shows the signal flow of MIDI from the instrument thur the interface where the MIDI is converted to NoteSequence proto. The model used must have a Sequence Generator attribute to interact with the MIDI Interface. Here I used the trained Melody RNN w/ attention config. The prediction is made and the response is routed back thorugh "magenta_out" of Magneta MIDI Interface.
+* Below shows the signal flow of MIDI from the instrument thur the interface where the MIDI is converted to NoteSequence proto. The model used must have a Sequence Generator attribute to interact with the MIDI Interface. Here I used the trained Melody RNN w/ attention config. The prediction is made and the response is routed back through "magenta_out" of Magneta MIDI Interface.
 
 ![](images/midi_interface.png)
 

@@ -1,4 +1,4 @@
-After datapreprocessing, I moved my directory to google colab to train both models.
+After datapreprocessing, I moved my directory to google drive to train both models.
 
 ## Key points:
 

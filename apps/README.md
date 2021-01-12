@@ -45,7 +45,7 @@ magenta_midi \
 
 * In the image below pay close attention to the in and outs on both the preferences page and on the actual MIDI channels in session view. 
 
-* The primer channel "Orange" can either be MIDI file that you play or MIDI controller where I can play a melody myself. Once the MIDI file is done playing Magenta will take a bar of silence and return a response "generated MIDI" that I can then record. "setup in channel 1"
+* The primer channel "Orange" can either be MIDI file that I play or a MIDI controller where I can play a melody myself. Once the MIDI file is done playing Magenta will take a bar of silence and return a response "generated MIDI" that I can then record. "setup in channel 1"
 
 ![](images/ableton_io.png)
 

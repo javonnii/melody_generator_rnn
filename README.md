@@ -1,9 +1,7 @@
 # Melody generator with RNNs 
 <hr>
 
-The goal of this project is to learn how to apply machine learning techniques to produce music. In this project I'll being training Google Magenta's Melody RNN model from scratch using songs in symbolic representation "midi" of Pop and Electronic songs. Midi describes the music using a notation containing the musical notes and timing, but not the sound or timbre of the actual sound. 
-
-In this project, I trained and deployed two RNN models with different configurations using a dataset of pop/electronic melodies. The piano melodies were extracted from songs in MIDI format and converted into note sequences using one-hot encoding. The trained models are capable of generating monophonic melodies given a primer melody. The coolest part of the project is interacting with the model utilizing Magenta’s midi interface in Ableton. This setup enables you to generate AI music based on melodies played in real-time.
+The goal of this project is to learn how to apply machine learning techniques to produce music. In this project, I trained and deployed two RNN models with different configurations using a dataset of pop/electronic melodies. The piano melodies were extracted from songs in MIDI format and converted into note sequences using one-hot encoding. The trained models are capable of generating monophonic melodies given a primer melody. The coolest part of the project is interacting with the model utilizing Magenta’s midi interface in Ableton. This setup enables you to generate AI music based on melodies played in real-time.
 
 ##### conda environment:
 ```bash

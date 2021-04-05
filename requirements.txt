@@ -1,3 +1,15 @@
-streamlit==0.79.0
+numpy==1.19.4
 magenta==2.1.2
+bokeh==2.2.3
+pretty_midi==0.2.9
+tensorflowjs==2.8.2
+streamlit==0.79.0
+note_seq==0.0.2
+Visual_MIDI==1.1.0
+seaborn==0.11.1
+matplotlib==3.3.3
 requests==2.25.1
+tensorflow==2.4.0
+scipy==1.5.4
+tables==3.6.1
+multiprocessing_utils==0.4

@@ -21,9 +21,9 @@ from visual_midi import Plotter
 
 st.title("Generating Polyphonic Melodies with Google's Magenta")
 
-st.subheader('Upload Primer MIDI file')
+st.subheader('By Javonnii Curry')
 # upload a MIDI file
-uploaded_file = st.file_uploader('MIDI', type=["mid"])
+uploaded_file = st.file_uploader('Upload Primer MIDI', type=["mid"])
 
 if uploaded_file is None:
     st.info("Please upload a MIDI file")
@@ -57,7 +57,7 @@ def generate(bundle_name: str,
              qpm: float = DEFAULT_QUARTERS_PER_MINUTE,
              condition_on_primer: bool = False,
              inject_primer_during_generation: bool = False,
-             total_length_steps: int = 200,
+             total_length_steps: int = 96,
              temperature: float = 1.0,
              beam_size: int = 1,
              branch_factor: int = 1,

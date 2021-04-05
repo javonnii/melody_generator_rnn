@@ -12,4 +12,4 @@
 }
 
 
-
+![](images/magenta_logo.png)

@@ -23,7 +23,7 @@ st.title("Generate Polyphonic Melodies with Google's Magenta")
 
 st.subheader('By Javonnii Curry')
 # upload a MIDI file
-uploaded_file = st.file_uploader('Upload Primer MIDI', type=["mid"])
+uploaded_file = st.file_uploader('Upload Primer MIDI: Must be POLYPHONIC Track', type=["mid"])
 
 if uploaded_file is None:
     st.info("Please upload a MIDI file")

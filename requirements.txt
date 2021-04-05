@@ -9,7 +9,6 @@ pretty_midi==0.2.9
 tensorflow==2.4.0
 tensorflowjs==2.8.2
 matplotlib==3.3.3
-requests==2.25.1
 numpy==1.19.4
 multiprocessing_utils==0.4
 pyfluidsynth==1.3.0

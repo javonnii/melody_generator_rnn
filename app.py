@@ -19,7 +19,7 @@ from note_seq.protobuf.generator_pb2 import GeneratorOptions
 from note_seq.protobuf.music_pb2 import NoteSequence
 from visual_midi import Plotter
 
-st.title("Generate Polyphonic Melodies with Google's Magenta")
+st.title("Generate Polyphonic Melodies with Google Magenta")
 
 st.subheader('By Javonnii Curry')
 # upload a MIDI file

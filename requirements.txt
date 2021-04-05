@@ -13,3 +13,4 @@ matplotlib==3.3.3
 requests==2.25.1
 numpy==1.19.4
 multiprocessing_utils==0.4
+pyfluidsynth

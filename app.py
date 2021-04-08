@@ -147,12 +147,12 @@ def generate(bundle_name: str,
     sequence = generator.generate(primer_sequence, generator_options)
 
     # Writes the resulting midi file to the output directory, uncomment this and the markdown download below to enable MIDI download from disk. 
-    # date_and_time = time.strftime('%Y-%m-%d_%H%M%S')
-    # generator_name = str(generator.__class__).split(".")[2]
-    # midi_filename = "%s_%s_%s.mid" % (generator_name, generator_id,
-    #                                     date_and_time)
-    # midi_path = os.path.join("output", midi_filename)
-    # midi_io.note_sequence_to_midi_file(sequence, midi_path)
+    date_and_time = time.strftime('%Y-%m-%d_%H%M%S')
+    generator_name = str(generator.__class__).split(".")[2]
+    midi_filename = "%s_%s_%s.mid" % (generator_name, generator_id,
+                                        date_and_time)
+    midi_path = os.path.join("output", midi_filename)
+    midi_io.note_sequence_to_midi_file(sequence, midi_path)
 
         
     # Audio Player
@@ -170,7 +170,7 @@ def generate(bundle_name: str,
     st.bokeh_chart(p, use_container_width=True)
     
     # download
-    # st.markdown(get_binary_file_downloader_html(midi_path, 'MIDI'), unsafe_allow_html=True)
+    st.markdown(get_binary_file_downloader_html(midi_path, 'MIDI'), unsafe_allow_html=True)
     
     # MIDI to Audioplayer for download
     st.success("Play Generated MIDI")
